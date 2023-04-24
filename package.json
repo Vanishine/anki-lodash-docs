@@ -1,0 +1,24 @@
+{
+  "name": "anki-lodash",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generates Anki flashcards from Lodash documentation.",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "csv-stringify": "^6.3.2",
+    "node-fetch": "^3.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ."
+  },
+  "keywords": [
+    "anki",
+    "lodash",
+    "flashcards"
+  ],
+  "author": "Vanishine <git@vanishing.dev> (https://vanishing.dev/)",
+  "license": "MIT"
+}
